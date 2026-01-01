@@ -17,7 +17,7 @@ const StyledHeader = styled.header`
   padding: 0px 50px;
   width: 100%;
   height: var(--nav-height);
-  background-color: rgba(10, 25, 47, 0.85);
+  background-color: rgba(122, 144, 168, 0.95);
   filter: none !important;
   pointer-events: auto !important;
   user-select: auto !important;
@@ -34,18 +34,18 @@ const StyledHeader = styled.header`
   @media (prefers-reduced-motion: no-preference) {
     ${props =>
     props.scrollDirection === 'up' &&
-      !props.scrolledToTop &&
-      css`
+    !props.scrolledToTop &&
+    css`
         height: var(--nav-scroll-height);
         transform: translateY(0px);
-        background-color: rgba(10, 25, 47, 0.85);
+        background-color: rgba(122, 144, 168, 0.98);
         box-shadow: 0 10px 30px -10px var(--navy-shadow);
       `};
 
     ${props =>
     props.scrollDirection === 'down' &&
-      !props.scrolledToTop &&
-      css`
+    !props.scrolledToTop &&
+    css`
         height: var(--nav-scroll-height);
         transform: translateY(calc(var(--nav-scroll-height) * -1));
         box-shadow: 0 10px 30px -10px var(--navy-shadow);
@@ -57,7 +57,7 @@ const StyledNav = styled.nav`
   ${({ theme }) => theme.mixins.flexBetween};
   position: relative;
   width: 100%;
-  color: var(--lightest-slate);
+  color: var(--white);
   font-family: var(--font-mono);
   counter-reset: item 0;
   z-index: 12;
@@ -66,7 +66,7 @@ const StyledNav = styled.nav`
     ${({ theme }) => theme.mixins.flexCenter};
 
     a {
-      color: var(--green);
+      color: var(--white);
       width: 42px;
       height: 42px;
       position: relative;
@@ -131,11 +131,17 @@ const StyledLinks = styled.div`
 
       a {
         padding: 10px;
+        color: var(--white);
+        
+        &:hover,
+        &:focus {
+          color: var(--navy);
+        }
 
         &:before {
           content: '0' counter(item) '.';
           margin-right: 5px;
-          color: var(--green);
+          color: var(--navy);
           font-size: var(--fz-xxs);
           text-align: right;
         }
@@ -147,6 +153,14 @@ const StyledLinks = styled.div`
     ${({ theme }) => theme.mixins.smallButton};
     margin-left: 15px;
     font-size: var(--fz-xs);
+    color: var(--white);
+    border-color: var(--white);
+    
+    &:hover,
+    &:focus-visible {
+      color: var(--white);
+      box-shadow: 4px 4px 0 0 var(--white);
+    }
   }
 `;
 

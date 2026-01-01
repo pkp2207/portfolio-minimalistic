@@ -22,7 +22,7 @@ const GlobalStyle = createGlobalStyle`
 
   ::selection {
     background-color: var(--lightest-navy);
-    color: var(--lightest-slate);
+    color: var(--dark-slate);
   }
 
   /* Provide basic, default focus styles.*/
