@@ -149,23 +149,23 @@ const About = () => {
               Hello! My name is Param and I enjoy building and shipping high-quality,
               user-facing products in fast-moving startup environments. I'm currently pursuing
               my B.Tech in Computer Science and Engineering at{' '}
-              <a href="https://www.svnit.ac.in/">SVNIT Surat</a> with a CGPA of 8.88.
+              <a href="https://www.svnit.ac.in/" style={{ color: 'var(--lightest-slate)' }}>SVNIT Surat</a> with a CGPA of 8.88.
             </p>
 
             <p>
               I've worked as a Software Engineer at{' '}
-              <a href="https://afterquery.com/">AfterQuery</a>, building structured evaluation
+              <a href="https://afterquery.com/" style={{ color: 'var(--lightest-slate)' }}>AfterQuery</a>, building structured evaluation
               workflows for AI-driven systems, and as a Software Engineering Intern at{' '}
-              <a href="https://www.visa.com/">Visa</a>, where I shipped production backend
+              <a href="https://www.visa.com/" style={{ color: 'var(--lightest-slate)' }}>Visa</a>, where I shipped production backend
               features and built Python-based automation tools, and at{' '}
-              <a href="https://www.paragonirrigation.com/">Paragon Irrigation Inc.</a>, where I
+              <a href="https://www.paragonirrigation.com/" style={{ color: 'var(--lightest-slate)' }}>Paragon Irrigation Inc.</a>, where I
               developed full-stack web applications using TypeScript, Next.js, and PostgreSQL on AWS.
             </p>
 
             <p>
               I'm passionate about competitive programming with a rating of 1809 on{' '}
-              <a href="https://codeforces.com/">Codeforces</a> and 2080 on{' '}
-              <a href="https://www.codechef.com/">CodeChef</a>. My focus these days is owning
+              <a href="https://codeforces.com/" style={{ color: 'var(--lightest-slate)' }}>Codeforces</a> and 2080 on{' '}
+              <a href="https://www.codechef.com/" style={{ color: 'var(--lightest-slate)' }}>CodeChef</a>. My focus these days is owning
               features end-to-end from idea to production, working through ambiguity, and
               shipping user-facing products with React, Node.js, Python, and AWS.
             </p>

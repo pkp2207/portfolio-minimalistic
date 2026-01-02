@@ -132,10 +132,28 @@ const StyledLinks = styled.div`
       a {
         padding: 10px;
         color: var(--white);
+        position: relative;
         
         &:hover,
         &:focus {
           color: var(--navy);
+          &:after {
+            width: 100%;
+          }
+        }
+
+        &:after {
+          content: '';
+          display: block;
+          width: 0;
+          height: 1px;
+          position: relative;
+          bottom: 0.1em;
+          background-color: var(--navy);
+          opacity: 0.5;
+          @media (prefers-reduced-motion: no-preference) {
+            transition: var(--transition);
+          }
         }
 
         &:before {

@@ -68,7 +68,7 @@ const Hero = () => {
         I'm a software engineer specializing in full-stack development with React, Node.js, Python,
         and AWS. I enjoy working in fast-moving startup environments, owning features end-to-end,
         and shipping products that solve real problems. Currently building AI-driven systems at{' '}
-        <a href="https://afterquery.com/" target="_blank" rel="noreferrer">
+        <a href="https://afterquery.com/" target="_blank" rel="noreferrer" style={{ color: 'var(--lightest-slate)' }}>
           AfterQuery
         </a>
         .
