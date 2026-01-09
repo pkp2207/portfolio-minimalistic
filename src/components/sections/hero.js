@@ -61,14 +61,27 @@ const Hero = () => {
 
   const one = <h1>Hi, my name is</h1>;
   const two = <h2 className="big-heading">Param Pathak.</h2>;
-  const three = <p>I build and ship user-facing products.</p>;
+  const three = <p>I design, build, and ship scalable web applications.</p>;
   const four = (
     <>
       <p>
-        I'm a software engineer specializing in full-stack development with React, Node.js, Python,
-        and AWS. I enjoy working in fast-moving startup environments, owning features end-to-end,
-        and shipping products that solve real problems. Currently building AI-driven systems at{' '}
-        <a href="https://afterquery.com/" target="_blank" rel="noreferrer" style={{ color: 'var(--lightest-slate)' }}>
+        I'm an early-career software engineer passionate about full-stack development, system
+        design, and cloud infrastructure. I work across the stack with TypeScript, Python, and
+        Go—building responsive frontends with React and Next.js, designing robust APIs with Node.js
+        and FastAPI, and deploying on AWS and Kubernetes. I've previously worked at{' '}
+        <a
+          href="https://www.visa.com/"
+          target="_blank"
+          rel="noreferrer"
+          style={{ color: 'var(--lightest-slate)' }}>
+          Visa
+        </a>{' '}
+        and{' '}
+        <a
+          href="https://afterquery.com/"
+          target="_blank"
+          rel="noreferrer"
+          style={{ color: 'var(--lightest-slate)' }}>
           AfterQuery
         </a>
         .
@@ -76,11 +89,7 @@ const Hero = () => {
     </>
   );
   const five = (
-    <a
-      className="email-link"
-      href="https://github.com/pkp2207"
-      target="_blank"
-      rel="noreferrer">
+    <a className="email-link" href="https://github.com/pkp2207" target="_blank" rel="noreferrer">
       Check out my projects!
     </a>
   );

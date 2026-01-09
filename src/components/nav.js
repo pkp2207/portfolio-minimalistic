@@ -17,7 +17,7 @@ const StyledHeader = styled.header`
   padding: 0px 50px;
   width: 100%;
   height: var(--nav-height);
-  background-color: rgba(122, 144, 168, 0.95);
+  background-color: rgba(72, 89, 107, 0.95);
   filter: none !important;
   pointer-events: auto !important;
   user-select: auto !important;
@@ -34,18 +34,18 @@ const StyledHeader = styled.header`
   @media (prefers-reduced-motion: no-preference) {
     ${props =>
     props.scrollDirection === 'up' &&
-    !props.scrolledToTop &&
-    css`
+      !props.scrolledToTop &&
+      css`
         height: var(--nav-scroll-height);
         transform: translateY(0px);
-        background-color: rgba(122, 144, 168, 0.98);
+        background-color: rgba(72, 89, 107, 0.98);
         box-shadow: 0 10px 30px -10px var(--navy-shadow);
       `};
 
     ${props =>
     props.scrollDirection === 'down' &&
-    !props.scrolledToTop &&
-    css`
+      !props.scrolledToTop &&
+      css`
         height: var(--nav-scroll-height);
         transform: translateY(calc(var(--nav-scroll-height) * -1));
         box-shadow: 0 10px 30px -10px var(--navy-shadow);
@@ -133,7 +133,7 @@ const StyledLinks = styled.div`
         padding: 10px;
         color: var(--white);
         position: relative;
-        
+
         &:hover,
         &:focus {
           color: var(--navy);
@@ -173,7 +173,7 @@ const StyledLinks = styled.div`
     font-size: var(--fz-xs);
     color: var(--white);
     border-color: var(--white);
-    
+
     &:hover,
     &:focus-visible {
       color: var(--white);
