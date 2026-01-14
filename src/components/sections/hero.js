@@ -66,9 +66,9 @@ const Hero = () => {
     <>
       <p>
         I'm an early-career software engineer passionate about full-stack development, system
-        design, and cloud infrastructure. I work across the stack with TypeScript, Python, and
-        Go—building responsive frontends with React and Next.js, designing robust APIs with Node.js
-        and FastAPI, and deploying on AWS and Kubernetes. I've previously worked at{' '}
+        design, and cloud infrastructure. I work across a varied stack, including, building
+        responsive frontends with React and Next.js, designing robust APIs with Node.js and FastAPI,
+        and deploying on AWS and Kubernetes. I've previously worked at{' '}
         <a
           href="https://www.visa.com/"
           target="_blank"
