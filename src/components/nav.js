@@ -17,7 +17,7 @@ const StyledHeader = styled.header`
   padding: 0px 50px;
   width: 100%;
   height: var(--nav-height);
-  background-color: rgba(72, 89, 107, 0.95);
+  background-color: rgba(10, 10, 11, 0.85);
   filter: none !important;
   pointer-events: auto !important;
   user-select: auto !important;
@@ -38,7 +38,7 @@ const StyledHeader = styled.header`
       css`
         height: var(--nav-scroll-height);
         transform: translateY(0px);
-        background-color: rgba(72, 89, 107, 0.98);
+        background-color: rgba(10, 10, 11, 0.95);
         box-shadow: 0 10px 30px -10px var(--navy-shadow);
       `};
 

@@ -1,9 +1,9 @@
 ---
 date: '2025-09-01'
-title: 'Software Engineer - Contract'
+title: 'Software Engineer (Contract)'
 company: 'AfterQuery'
 location: 'Remote'
-range: 'September 2025 - November 2025'
+range: 'September 2025 - December 2025'
 url: 'https://afterquery.com/'
 ---
 

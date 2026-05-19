@@ -61,36 +61,27 @@ const Hero = () => {
 
   const one = <h1>Hi, my name is</h1>;
   const two = <h2 className="big-heading">Param Pathak.</h2>;
-  const three = <p>I design, build, and ship scalable web applications.</p>;
+  const three = <h3 className="big-heading">I build backend systems that stay up.</h3>;
   const four = (
     <>
       <p>
-        I'm an early-career software engineer passionate about full-stack development, system
-        design, and cloud infrastructure. I work across a varied stack, including, building
-        responsive frontends with React and Next.js, designing robust APIs with Node.js and FastAPI,
-        and deploying on AWS and Kubernetes. I've previously worked at{' '}
+        I'm a final-year CS student and software engineer focused on backend, automation, and
+        AI-integrated systems. I'm currently a Semester Intern at{' '}
         <a
           href="https://www.visa.com/"
           target="_blank"
           rel="noreferrer"
           style={{ color: 'var(--lightest-slate)' }}>
           Visa
-        </a>{' '}
-        and{' '}
-        <a
-          href="https://afterquery.com/"
-          target="_blank"
-          rel="noreferrer"
-          style={{ color: 'var(--lightest-slate)' }}>
-          AfterQuery
         </a>
-        .
+        , building an AI agent for real-time transaction log analysis — and previously shipped
+        release automation there that cut deployment time from 45 to 15 minutes and MTTR by 90%.
       </p>
     </>
   );
   const five = (
-    <a className="email-link" href="https://github.com/pkp2207" target="_blank" rel="noreferrer">
-      Check out my projects!
+    <a className="email-link" href="#projects">
+      See what I've built
     </a>
   );
 

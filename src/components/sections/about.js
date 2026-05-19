@@ -126,16 +126,14 @@ const About = () => {
   }, []);
 
   const skills = [
+    'TypeScript / Python',
     'React / Next.js',
-    'Node.js / Express',
-    'TypeScript',
-    'Python / FastAPI',
+    'Node.js / FastAPI',
     'PostgreSQL / MongoDB',
-    'AWS (EC2, S3, Lambda)',
-    'Docker / Kubernetes',
-    'C++ / Java',
-    'Go / Ruby',
-    'System Design',
+    'AWS / Docker / Kubernetes',
+    'Jenkins / CI-CD',
+    'LLM / GenAI Integration',
+    'Telemetry & Observability',
   ];
 
   return (
@@ -146,48 +144,49 @@ const About = () => {
         <StyledText>
           <div>
             <p>
-              Hello! My name is Param and I enjoy building and shipping high-quality, user-facing
-              products in fast-moving startup environments. I'm currently pursuing my B.Tech in
-              Computer Science and Engineering at{' '}
+              Hello! My name is Param — a backend-leaning full-stack engineer who enjoys shipping
+              production systems with the boring parts done right: telemetry, automation, tests, and
+              observability. I'm in my final year of B.Tech Computer Science at{' '}
               <a href="https://www.svnit.ac.in/" style={{ color: 'var(--lightest-slate)' }}>
                 SVNIT Surat
               </a>{' '}
-              with a CGPA of 8.91.
+              with a CGPA of 9.17/10.
             </p>
 
             <p>
-              I've worked as a Software Engineer at{' '}
-              <a href="https://afterquery.com/" style={{ color: 'var(--lightest-slate)' }}>
-                AfterQuery
-              </a>
-              , building structured evaluation workflows for AI-driven systems, and as a Software
-              Engineering Intern at{' '}
+              I'm currently a Semester Intern at{' '}
               <a href="https://www.visa.com/" style={{ color: 'var(--lightest-slate)' }}>
                 Visa
               </a>
-              , where I shipped production backend features and built Python-based automation tools,
-              and at{' '}
+              , building an AI-powered Transaction Log Analyser agent that surfaces anomalies in
+              high-volume financial data. I previously returned from a summer internship there where
+              I shipped a release automation platform that cut deployment time from 45 to 15 minutes
+              and built a GenAI log-analysis tool that reduced MTTR by 90%. Before Visa, I
+              contracted with{' '}
+              <a href="https://afterquery.com/" style={{ color: 'var(--lightest-slate)' }}>
+                AfterQuery
+              </a>{' '}
+              on structured evaluation workflows for AI systems, and interned at{' '}
               <a
                 href="https://www.paragonirrigation.com/"
                 style={{ color: 'var(--lightest-slate)' }}>
                 Paragon Irrigation Inc.
-              </a>
-              , where I developed full-stack web applications using TypeScript, Next.js, and
-              PostgreSQL on AWS.
+              </a>{' '}
+              building full-stack apps on Next.js, PostgreSQL, and AWS.
             </p>
 
             <p>
-              I'm passionate about competitive programming with a rating of 1809 on{' '}
+              On the side I compete — Expert on{' '}
               <a href="https://codeforces.com/" style={{ color: 'var(--lightest-slate)' }}>
                 Codeforces
               </a>{' '}
-              and 2080 on{' '}
+              (max 1887) and 5-star on{' '}
               <a href="https://www.codechef.com/" style={{ color: 'var(--lightest-slate)' }}>
                 CodeChef
-              </a>
-              . My focus these days is owning features end-to-end from idea to production, working
-              through ambiguity, and shipping user-facing products with React, Node.js, Python, and
-              AWS.
+              </a>{' '}
+              (max 2080) — and I lead the student ACM chapter at NIT Surat, where we ran DotSlash
+              8.0 with 40 teams and 1,100+ registrations. I care about owning features end-to-end:
+              from ambiguous problem to metrics dashboard.
             </p>
 
             <p>Here are a few technologies I’ve been working with recently:</p>

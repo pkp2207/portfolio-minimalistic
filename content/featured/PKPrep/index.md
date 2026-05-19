@@ -11,4 +11,5 @@ tech:
   - Vapi AI
   - Gemini
 ---
-An AI-powered platform designed to enhance job interview preparation through immersive practice sessions
+
+AI-powered mock interview platform supporting **200+ real interview sessions**. Backend APIs normalize, cache, and post-process LLM responses for consistent evaluation output; telemetry and user feedback drive iteration. Full-stack Next.js + TypeScript, with Vapi AI for voice and Gemini for reasoning.

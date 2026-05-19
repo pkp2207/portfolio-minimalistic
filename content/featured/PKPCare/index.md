@@ -11,4 +11,5 @@ tech:
   - Tailwind CSS
   - Twilio
 ---
-A healthcare platform that streamlines patient registration, appointment scheduling, and medical records, and learn to implement complex forms and SMS notifications.
+
+A healthcare scheduling system with responsive patient registration, appointment flows, and Twilio-powered SMS notifications. Backend APIs and background jobs handle validation, retries, and edge cases; Sentry wired in for observability. Rebuilt from an earlier Rails version of the same product to force a modern stack.
